@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling Forms</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <div id="logo">
+      <img src="./images/logo.png" alt="logo" />
+    </div>
+
+    <div class="transparent">
+      <h1>The Best Craft Beer in Spain!</h1>
+      <p>
+        Bienvenido, amigos! We are completely fictional location. But that does
+        not mean we can't imagine the best beer in Spain!
+      </p>
+    </div>
+
+    <form action="#" method="GET" class="reservation">
+      <h2>Make a revervation</h2>
+
+      <p>Get your spot before somebody else does!</p>
+
+      <div class="position">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" value="John B. Goode" />
+      </div>
+
+      <div class="position">
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" value="John B.Goode" />
+      </div>
+
+      <div class="position">
+        <label for="time">Reservation Time</label>
+        <input type="datetime-local" name="time" id="time" />
+      </div>
+
+      <div class="position">
+        <input type="submit" value="Reserve Now" id="submit" />
+      </div>
+    </form>
+
+    <footer>
+      <p>&copy 2018 - El Amigo</p>
+    </footer>
+  </body>
+</html>
